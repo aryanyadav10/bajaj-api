@@ -4,7 +4,7 @@ const cors = require("cors");
 const { detectFile } = require("magic-bytes.js"); // Import magic-bytes for file validation
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
 // Middleware
 app.use(cors());
